@@ -1,0 +1,176 @@
+/home/zhihui/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zhihui/All_File/CLionProject/Demo_two
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- FLANN found (include: , lib: flann_cpp)
+-- FLANN found (include: , lib: flann_cpp)
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_REGISTRATION
+-- looking for PCL_GEOMETRY
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_IO
+-- looking for PCL_SURFACE
+-- looking for PCL_RECOGNITION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_STEREO
+-- looking for PCL_TRACKING
+-- looking for PCL_PEOPLE
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- FLANN found (include: , lib: flann_cpp)
+-- FLANN found (include: , lib: flann_cpp)
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_REGISTRATION
+-- looking for PCL_GEOMETRY
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_IO
+-- looking for PCL_SURFACE
+-- looking for PCL_RECOGNITION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_STEREO
+-- looking for PCL_TRACKING
+-- looking for PCL_PEOPLE
+-- Reading /usr/local/share/cmake/libLAS/liblas-config.cmake
+-- libLAS configuration, version 1.8.1
+-- Configuring done
+CMake Warning at PointCloudApplication/CMakeLists.txt:41 (add_executable):
+  Cannot generate a safe runtime search path for target PointCloudApplication
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+    runtime library [libQt5Network.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at PointCloudApplication/CMakeLists.txt:41 (add_executable):
+  Cannot generate a safe dependent library path for target
+  PointCloudApplication because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+    runtime library [libQt5Network.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at render/CMakeLists.txt:45 (add_library):
+  Cannot generate a safe runtime search path for target OSGWidgets because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+    runtime library [libQt5Network.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at render/CMakeLists.txt:45 (add_library):
+  Cannot generate a safe dependent library path for target OSGWidgets because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+    runtime library [libQt5Network.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/zhihui/Qt5.12.0/5.12.0/gcc_64/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/zhihui/All_File/CLionProject/Demo_two/Dbuild

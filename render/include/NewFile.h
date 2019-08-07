@@ -1,0 +1,8 @@
+//
+// Created by zhihui on 7/5/19.
+//
+
+#ifndef DEMO_TWO_RENDER_INCLUDE_NEWFILE_H_
+#define DEMO_TWO_RENDER_INCLUDE_NEWFILE_H_
+
+#endif //DEMO_TWO_RENDER_INCLUDE_NEWFILE_H_

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--项目名后面的时间为软件自动添加（防止命名冲突），exists表示该项目是否被删除-->
+<project name="NankeDa_2019-07-23" exists="true">
+    <!--所有地址都有默认值，在软件当前目录下-->
+    <directory>
+        <!--原数据文件夹地址及个数 删除时提示-->
+        <dataFiles dir="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/pointCloudData/PCDFiles/nankeda" num="2">
+            <MD5 MD5="354ed8b14c72948c8beb6ab095f3a482" fileName="global_surf.pcd"/>
+            <MD5 MD5="307838db98b82c483875bf95f8b43404" fileName="nankeda.pcd"/>
+        </dataFiles>
+        <!--待加载数据地址（原则上不能自定义）-->
+        <metaData dir="N/A"/>
+        <!--中间文件（分割地面时产生的CSV，默认不产生）-->
+        <groundCSVData dir="N/A"/>
+        <!--输出数据地址（JSON前端）-->
+        <JSONData dir="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/JSONData/"/>
+        <!--CSV数据地址-->
+        <CSVData dir="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/CSVData/"/>
+        <!--map和yaml数据地址-->
+        <!--一对一-->
+        <mapData dir="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData/"/>
+
+        <!--一对多-->
+        <mapData dir_1="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_1/"/>
+        <mapData dir_2="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_2/"/>
+        <mapData dir_3="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_3/"/>
+
+        <!--多对多-->
+        <mapData dir_1="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_1/"/>
+        <mapData_1 dir_1="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_1/"/>
+        <mapData_1 dir_2="/home/zhihui/CLionProj/RobotPathGeneration/Dbuild/PointCloudApplication/data/MapData_2/"/>
+
+    </directory>
+</project>
